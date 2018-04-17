@@ -9,4 +9,13 @@ Python3.x 取整为 //，而不是 /，
 
 
 
-
+l=[]
+for x in range(100,1000):
+    a=x//100
+    b=x%100//10
+    c=x%10
+    if x==a**3+b**3+c**3:
+        l.append(x)
+        
+        
+print(l)
